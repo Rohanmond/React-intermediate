@@ -19,6 +19,7 @@ import ReactDOM from "react-dom/client";
  * Zero config
  * port numbeer handled by parcel
  * Package manager handles Transitive dependencies(a package dependent of which some dependencies which also dependent on other dependencies)
+ * Tree shaking (removing unwanted code)
  */
 
 const heading = React.createElement(
